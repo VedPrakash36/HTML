@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br/>
+        <br/>
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        <br/>
+        <br/>
+        <label for="phoneno">Phone:</label>
+        <input type="tel" id="phoneno">
+        <br/>
+        <br/>
+        <label for="fileupload">Resume</label>
+        <input type="file" id="fileupload">
+        <br/>
+        <label for="experience">Experience(in Years)</label>
+        <input type="number" id="experience" min="0" max="50">
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" id="html">
+            <br/>
+            <label for="html">HTML</label>
+            <br/>
+            <input type="checkbox" id="css">
+            <br/>
+            <label for="css">CSS</label>
+            <br/>
+            <input type="checkbox" id="javascript">
+            <br/>
+            <label for="javascript">JAVASCRIPT</label>
+
+        </fieldset>
+        <label for="highesteducation">Highest Education</label>
+        <select name="dropdown" id="highesteducation">
+            <option value="highschool">high school</option>
+            <option value="highschool">phd</option>
+            <option value="middledschool">middle school</option>
+            <option value="bacholer">bacholer</option>
+        </select>
+        <fieldset>
+            <legend>Availablilty:</legend>
+            <label for="fulltime">Full-time</label>
+            <input type="radio" id="fulltime">
+            <br/>
+            <br/>
+            <label for="parttime">Part-time</label>
+            <input type="radio" id="parttime">
+        </fieldset>
+        <p>Additonal Comments</p>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <button>Submit Application</button>
+
+    </form>
+</body>
+</html>
